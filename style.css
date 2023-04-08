@@ -135,9 +135,10 @@ a:hover {
 
 .menuIntro > img {
   width: 75%;
+  margin-top: 130px;
   border-radius: 10%;
   height: auto;
-  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  box-shadow: rgb(77, 71, 38) 0px 20px 30px -10px;
   filter: blur(0.5px);
 }
 

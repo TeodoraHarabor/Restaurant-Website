@@ -6,12 +6,12 @@ root {
 
 body {
   width: auto;
-  background-image: url("https://images.pexels.com/photos/4001870/pexels-photo-4001870.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-image: url("https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1600");
   width: 400px;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  background-color: wheat;
+  background-color: #c9c19f;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
@@ -22,21 +22,32 @@ body {
   display: flex;
   margin-bottom: 20px;
   width: 100%;
-  height: auto;
+  height: 100px;
   position: fixed;
   left: 0;
   top: 0;
   display: inline-block;
   z-index: 1;
-  background-color: rgba(0, 0, 0, 0.541);
+  background-color: #555245;
 }
 .navBar ul {
   display: flex;
   justify-content: center;
+  gap: 15px;
 }
 .navBar a {
   text-decoration: none;
-  color: white;
+  background-color: white;
+  color: #555245;
+  border-radius: 3px;
+  padding: 10px 32px;
+  margin-top: -18px;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: all 0.1s ease-in-out;
 }
 
 img {
@@ -49,7 +60,7 @@ i {
 
 i:hover,
 a:hover {
-  color: dodgerblue;
+  color: #c9c19f;
   cursor: pointer;
 }
 
@@ -71,7 +82,7 @@ a:hover {
   height: auto;
   position: absolute;
   top: 10%;
-  left: 5%;
+  left: 10%;
   display: grid;
   grid-template-rows: 1fr;
 }
@@ -85,7 +96,6 @@ a:hover {
   margin: 20px;
   position: relative;
   width: 100%;
-  left: 5%;
   top: -20%;
   text-align: center;
   padding: 10px;
@@ -146,12 +156,13 @@ a:hover {
   text-align: center;
   padding: 20px;
   opacity: 0.9;
-  background-color: rgba(100, 98, 98, 0.288);
+  background-color: #555245;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
   top: 50px;
   margin: auto;
   width: 60%;
-  border: 10px solid #e3cb32;
+  border: 10px solid white;
+  border-radius: 5px;
   padding: 10px;
 }
 
@@ -174,11 +185,6 @@ a:hover {
     font-family: Arial, Helvetica, sans-serif;
   }
 
-  h2,
-  h1 {
-    font-size: 18px;
-  }
-
   .navBar,
   .navBar nav li {
     width: 100%;
@@ -192,6 +198,9 @@ a:hover {
     font-size: 25px;
     z-index: -1;
   }
+}
+#hamMenu ul li {
+  color: aqua;
 }
 
 .form {

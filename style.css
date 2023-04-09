@@ -132,12 +132,20 @@ a:hover {
   margin-right: auto;
 }
 
-/* for image seperation */
+#story,
+#contact {
+  margin: auto;
+  margin-top: 140px;
+  background-color: #555245;
+  width: 60%;
+  border: 10px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  opacity: 0.9;
+}
 
-.story {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+#story,
+#contact h2 {
   text-align: center;
 }
 
@@ -356,7 +364,7 @@ a:hover {
   }
 }
 
-#story {
+/* #contact {
   margin: auto;
   margin-top: 140px;
   background-color: #555245;
@@ -365,7 +373,7 @@ a:hover {
   border-radius: 5px;
   padding: 10px;
   opacity: 0.9;
-}
+} */
 
 #story h2 {
   text-align: center;

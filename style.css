@@ -355,3 +355,18 @@ a:hover {
     opacity: 1;
   }
 }
+
+#story {
+  margin: auto;
+  margin-top: 140px;
+  background-color: #555245;
+  width: 60%;
+  border: 10px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  opacity: 0.9;
+}
+
+#story h2 {
+  text-align: center;
+}

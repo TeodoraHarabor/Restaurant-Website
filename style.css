@@ -144,8 +144,7 @@ a:hover {
   opacity: 0.9;
 }
 
-#story,
-#contact {
+#story {
   text-align: center;
 }
 
@@ -365,6 +364,18 @@ a:hover {
 }
 
 /* CONTACT FORM */
+.container {
+  color: #555245;
+  margin: auto;
+  width: 75%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+#contact h2 {
+  text-align: center;
+}
 
 input[type="text"],
 select,
@@ -397,14 +408,4 @@ input[type="submit"] {
 /* When moving the mouse over the submit button, add a darker green color */
 input[type="submit"]:hover {
   background-color: #04aa6d;
-}
-
-/* Add a background color and some padding around the form */
-.container {
-  color: #555245;
-  margin: auto;
-  width: 75%;
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
 }

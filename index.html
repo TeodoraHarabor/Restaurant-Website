@@ -4,8 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href='style.css' />
     <link rel="shortcut icon" href="assets/images/Logo.png" />
-    <script src="./js/anime.min.js"></script>    
-    <title>La Strada Bistro</title>
+    <script src="app.js"></script>
+	<title>La Strada Bistro</title>
 </head>
 <body>
     <!--  animated nav bar -->
@@ -218,11 +218,14 @@
 	  <label for="subject">Subject</label>
 	  <textarea id="subject" name="subject" placeholder="Write your message..." style="height:200px"></textarea>
   
-	  <input type="submit" value="Submit">
-  
+	  
+	  <input type="button" id="submit" value="Submit!" onClick="showMessage()" />
+	  
 	</form>
   </div>
+  
 </div>
+<div id="submitMsg" class="hidden">Thank you for message!</div>
 </div>
 
 

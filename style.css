@@ -409,3 +409,14 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #04aa6d;
 }
+
+#submitMsg {
+  margin: auto;
+  border: 3px solid green;
+  padding: 10px;
+  /* position: absolute; */
+}
+
+.hidden {
+  display: none;
+}

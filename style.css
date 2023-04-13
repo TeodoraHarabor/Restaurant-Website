@@ -343,7 +343,7 @@ a:hover {
     0.3em 0.3em 4em rgba(0, 0, 0, 0.3);
 }
 
-/*  image animation for resturant*/
+/*  image animation for bistro*/
 
 @keyframes windowsFly {
   0% {
@@ -411,10 +411,10 @@ input[type="submit"]:hover {
 }
 
 #submitMsg {
+  color: #04aa6d;
   margin: auto;
   border: 3px solid green;
   padding: 10px;
-  /* position: absolute; */
 }
 
 .hidden {

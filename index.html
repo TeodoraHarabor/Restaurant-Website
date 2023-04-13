@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href='style.css' />
     <link rel="shortcut icon" href="assets/images/Logo.png" />
-    <script src="app.js"></script>
+	<script async src="app.js"></script>
 	<title>La Strada Bistro</title>
 </head>
 <body>
@@ -194,10 +194,10 @@
 		
 	</ul></section>
 	
-</div>
-<div id="contact">
-<h2>CONTACT US</h2>
-<div class="container">
+	</div>
+	<div id="contact">
+	<h2>CONTACT US</h2>
+	<div class="container">
 	<form>
   
 	  <label for="fname">First Name</label>
@@ -219,13 +219,15 @@
 	  <textarea id="subject" name="subject" placeholder="Write your message..." style="height:200px"></textarea>
   
 	  
-	  <input type="button" id="submit" value="Submit!" onClick="showMessage()" />
-	  
+	  <input type="button" id="submit" value="Submit!" />
+	  <div id="submitMsg">Thank you for message!</div>
 	</form>
+	
   </div>
   
-</div>
-<div id="submitMsg" class="hidden">Thank you for message!</div>
+</body>
+
 </div>
 
+</div>
 

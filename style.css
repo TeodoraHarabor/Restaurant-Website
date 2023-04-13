@@ -409,12 +409,23 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #04aa6d;
 }
+#submitButton {
+  padding: 10px;
+  color: white;
+  background-color: #04aa6d;
+  border: none;
+  border-radius: 5px;
+  margin-left: 225px;
+}
 
 #submitMsg {
-  color: #04aa6d;
+  background-color: #04aa6d;
+  color: white;
   margin: auto;
-  border: 3px solid green;
-  padding: 10px;
+  margin-top: 20px;
+  padding: 15px;
+  text-align: center;
+  border-radius: 5px;
 }
 
 .hidden {

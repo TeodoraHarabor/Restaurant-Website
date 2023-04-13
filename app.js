@@ -1,4 +1,4 @@
-let submitBtn = document.getElementById("submit");
+let submitBtn = document.getElementById("submitButton");
 
 submitBtn.addEventListener("click", () => {
   document.getElementById("submitMsg").classList.remove("hidden");
